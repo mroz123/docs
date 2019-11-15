@@ -205,6 +205,14 @@ Fields definition can be defined as simple array of string, array of (field defi
 
   Whether this field should be visible or hidden when rendering the table. 
 
+### props
+
+- Type: `Object`
+
+- Usage:
+
+  An object containing additional data which will be passed to the field component as props. Props has to be defined in the target component under the same name as keys in this object. 
+
 ### width
 
 - Type: `String`
