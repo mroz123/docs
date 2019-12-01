@@ -228,6 +228,18 @@ Fields definition can be defined as simple array of string, array of (field defi
   ::: tip
   When using fixed header feature of Vuetable, you should always set the width for each field as it will make the column table looks more consistent.
   :::
+  
+### display 
+
+- Type: `Function`
+
+- Usage:
+
+  The display property is a special property available for checkbox special field. It is called every time the checkbox is about to be rendered to determine if the checkbox should be displayed or not.
+  
+  The display function will recieve the following parameters from Vuetable, and it must return a boolean value which indicates whether the checkbox is displayed.
+  - `row` -- an object containing row data
+
  
 ### $_index
 
